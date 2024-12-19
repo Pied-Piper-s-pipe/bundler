@@ -1,11 +1,11 @@
 {
-  "chainId": 1337,
+  "chainId": 211101,
   "gasFactor": "1",
   "port": "3000",
   "privateApiPort": "3001",
-  "network": "http://127.0.0.1:8545",
+  "network": "https://rpc.imimo.xyz",
   "entryPoint": "0x0000000071727De22E5E9d8BAf0edAc6f37da032",
-  "beneficiary": "0xd21934eD8eAf27a67f0A70042Af50A1D6d195E81",
+  "beneficiary": "0x8943545177806ED17B9F23F0a21ee5948eCaa776",
   "minBalance": "1",
   "mnemonic": "./localconfig/mnemonic.txt",
   "maxBundleGas": 5e6,
@@ -15,5 +15,6 @@
   "autoBundleMempoolSize": 10,
   "rip7560": false,
   "rip7560Mode": "PULL",
+  "debugRpc": true,
   "gethDevMode": true
 }
